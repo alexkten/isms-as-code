@@ -1,0 +1,791 @@
+{
+  "focalDocName": "Privacy Framework",
+  "focalDocVersion": "1.0",
+  "focalDocIdentifier": "Privacy Framework v1.0",
+  "focalDocElements": [
+    {
+      "element": "ID-P",
+      "title": "Develop the organizational understanding to manage privacy risk for individuals arising from data processing.",
+      "type": "Function",
+      "description": "",
+      "childElements": [
+        {
+          "element": "ID.IM-P",
+          "title": "Data processing by systems, products, or services is understood and informs the management of privacy risk.",
+          "type": "Category",
+          "description": "",
+          "childElements": [
+            {
+              "element": "ID.IM-P1",
+              "title": "Systems/products/services that process data are inventoried.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "ID.IM-P2",
+              "title": "Owners or operators (e.g., the organization or third parties such as service providers, partners, customers, and developers) and their roles with respect to the systems/products/services and components (e.g., internal or external) that process data are inventoried.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "ID.IM-P3",
+              "title": "Categories of individuals (e.g., customers, employees or prospective employees, consumers) whose data are being processed are inventoried.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "ID.IM-P4",
+              "title": "Data actions of the systems/products/services are inventoried.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "ID.IM-P5",
+              "title": "The purposes for the data actions are inventoried.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "ID.IM-P6",
+              "title": "Data elements within the data actions are inventoried.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "ID.IM-P7",
+              "title": "The data processing environment is identified (e.g., geographic location, internal, cloud, third parties).",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "ID.IM-P8",
+              "title": "Data processing is mapped, illustrating the data actions and associated data elements for systems/products/services, including components; roles of the component owners/operators; and interactions of individuals or third parties with the systems/products/services.",
+              "type": "Subcategory",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "element": "ID.BE-P",
+          "title": "The organization’s mission, objectives, stakeholders, and activities are understood and prioritized; this information is used to inform privacy roles, responsibilities, and risk management decisions.",
+          "type": "Category",
+          "description": "",
+          "childElements": [
+            {
+              "element": "ID.BE-P1",
+              "title": "The organization’s role(s) in the data processing ecosystem are identified and communicated.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "ID.BE-P2",
+              "title": "Priorities for organizational mission, objectives, and activities are established and communicated.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "ID.BE-P3",
+              "title": "Systems/products/services that support organizational priorities are identified and key requirements communicated.",
+              "type": "Subcategory",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "element": "ID.RA-P",
+          "title": "The organization understands the privacy risks to individuals and how such privacy risks may create follow-on impacts on organizational operations, including mission, functions, other risk management priorities (e.g., compliance, financial), reputation, workforce, and culture.",
+          "type": "Category",
+          "description": "",
+          "childElements": [
+            {
+              "element": "ID.RA-P1",
+              "title": "Contextual factors related to the systems/products/services and the data actions are identified (e.g., individuals’ demographics and privacy interests or perceptions, data sensitivity and/or types, visibility of data processing to individuals and third parties). ",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "ID.RA-P2",
+              "title": "Data analytic inputs and outputs are identified and evaluated for bias.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "ID.RA-P3",
+              "title": "Potential problematic data actions and associated problems are identified. ",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "ID.RA-P4",
+              "title": "Problematic data actions, likelihoods, and impacts are used to determine and prioritize risk.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "ID.RA-P5",
+              "title": "Risk responses are identified, prioritized, and implemented.",
+              "type": "Subcategory",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "element": "ID.DE-P",
+          "title": "The organization’s priorities, constraints, risk tolerance, and assumptions are established and used to support risk decisions associated with managing privacy risk and third parties within the data processing ecosystem. The organization has established and implemented the processes to identify, assess, and manage privacy risks within the data processing ecosystem.",
+          "type": "Category",
+          "description": "",
+          "childElements": [
+            {
+              "element": "ID.DE-P1",
+              "title": "Data processing ecosystem risk management policies, processes, and procedures are identified, established, assessed, managed, and agreed to by organizational stakeholders.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "ID.DE-P2",
+              "title": "Data processing ecosystem parties (e.g., service providers, customers, partners, product manufacturers, application developers) are identified, prioritized, and assessed using a privacy risk assessment process.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "ID.DE-P3",
+              "title": "Contracts with data processing ecosystem parties are used to implement appropriate measures designed to meet the objectives of an organization’s privacy program. ",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "ID.DE-P4",
+              "title": "Interoperability frameworks or similar multi-party approaches are used to manage data processing ecosystem privacy risks. ",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "ID.DE-P5",
+              "title": "Data processing ecosystem parties are routinely assessed using audits, test results, or other forms of evaluations to confirm they are meeting their contractual, interoperability framework, or other obligations.",
+              "type": "Subcategory",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "element": "GV-P",
+      "title": "Develop and implement the organizational governance structure to enable an ongoing understanding of the organization’s risk management priorities that are informed by privacy risk.",
+      "type": "Function",
+      "description": "",
+      "childElements": [
+        {
+          "element": "GV.PO-P",
+          "title": "The policies, processes, and procedures to manage and monitor the organization’s regulatory, legal, risk, environmental, and operational requirements are understood and inform the management of privacy risk.",
+          "type": "Category",
+          "description": "",
+          "childElements": [
+            {
+              "element": "GV.PO-P1",
+              "title": "Organizational privacy values and policies (e.g., conditions on data processing such as data uses or retention periods, individuals’ prerogatives with respect to data processing) are established and communicated.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "GV.PO-P2",
+              "title": "Processes to instill organizational privacy values within system/product/service development and operations are established and in place.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "GV.PO-P3",
+              "title": "Roles and responsibilities for the workforce are established with respect to privacy. ",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "GV.PO-P4",
+              "title": "Privacy roles and responsibilities are coordinated and aligned with third-party stakeholders (e.g., service providers, customers, partners).",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "GV.PO-P5",
+              "title": "Legal, regulatory, and contractual requirements regarding privacy are understood and managed.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "GV.PO-P6",
+              "title": "Governance and risk management policies, processes, and procedures address privacy risks.",
+              "type": "Subcategory",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "element": "GV.RM-P",
+          "title": "The organization’s priorities, constraints, risk tolerances, and assumptions are established and used to support operational risk decisions.",
+          "type": "Category",
+          "description": "",
+          "childElements": [
+            {
+              "element": "GV.RM-P1",
+              "title": "Risk management processes are established, managed, and agreed to by organizational stakeholders.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "GV.RM-P2",
+              "title": "Organizational risk tolerance is determined and clearly expressed.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "GV.RM-P3",
+              "title": "The organization’s determination of risk tolerance is informed by its role(s) in the data processing ecosystem.",
+              "type": "Subcategory",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "element": "GV.AT-P",
+          "title": "The organization’s workforce and third parties engaged in data processing are provided privacy awareness education and are trained to perform their privacy-related duties and responsibilities consistent with related policies, processes, procedures, and agreements and organizational privacy values.",
+          "type": "Category",
+          "description": "",
+          "childElements": [
+            {
+              "element": "GV.AT-P1",
+              "title": "The workforce is informed and trained on its roles and responsibilities. ",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "GV.AT-P2",
+              "title": "Senior executives understand their roles and responsibilities.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "GV.AT-P3",
+              "title": "Privacy personnel understand their roles and responsibilities.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "GV.AT-P4",
+              "title": "Third parties (e.g., service providers, customers, partners) understand their roles and responsibilities.",
+              "type": "Subcategory",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "element": "GV.MT-P",
+          "title": "The policies, processes, and procedures for ongoing review of the organization’s privacy posture are understood and inform the management of privacy risk.",
+          "type": "Category",
+          "description": "",
+          "childElements": [
+            {
+              "element": "GV.MT-P1",
+              "title": "Privacy risk is re-evaluated on an ongoing basis and as key factors, including the organization’s business environment (e.g., introduction of new technologies), governance (e.g., legal obligations, risk tolerance), data processing, and systems/products/services change.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "GV.MT-P2",
+              "title": "Privacy values, policies, and training are reviewed and any updates are communicated. ",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "GV.MT-P3",
+              "title": "Policies, processes, and procedures for assessing compliance with legal requirements and privacy policies are established and in place.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "GV.MT-P4",
+              "title": "Policies, processes, and procedures for communicating progress on managing privacy risks are established and in place.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "GV.MT-P5",
+              "title": "Policies, processes, and procedures are established and in place to receive, analyze, and respond to problematic data actions disclosed to the organization from internal and external sources (e.g., internal discovery, privacy researchers, professional events).",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "GV.MT-P6",
+              "title": "Policies, processes, and procedures incorporate lessons learned from problematic data actions.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "GV.MT-P7",
+              "title": "Policies, processes, and procedures for receiving, tracking, and responding to complaints, concerns, and questions from individuals about organizational privacy practices are established and in place.",
+              "type": "Subcategory",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "element": "CT-P",
+      "title": "Develop and implement appropriate activities to enable organizations or individuals to manage data with sufficient granularity to manage privacy risks.",
+      "type": "Function",
+      "description": "",
+      "childElements": [
+        {
+          "element": "CT.PO-P",
+          "title": "Policies, processes, and procedures are maintained and used to manage data processing (e.g., purpose, scope, roles and responsibilities in the data processing ecosystem, and management commitment) consistent with the organization’s risk strategy to protect individuals’ privacy.",
+          "type": "Category",
+          "description": "",
+          "childElements": [
+            {
+              "element": "CT.PO-P1",
+              "title": "Policies, processes, and procedures for authorizing data processing (e.g., organizational decisions, individual consent), revoking authorizations, and maintaining authorizations are established and in place.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "CT.PO-P2",
+              "title": "Policies, processes, and procedures for enabling data review, transfer, sharing or disclosure, alteration, and deletion are established and in place (e.g., to maintain data quality, manage data retention).",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "CT.PO-P3",
+              "title": "Policies, processes, and procedures for enabling individuals’ data processing preferences and requests are established and in place.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "CT.PO-P4",
+              "title": "A data life cycle to manage data is aligned and implemented with the system development life cycle to manage systems.",
+              "type": "Subcategory",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "element": "CT.DM-P",
+          "title": "Data are managed consistent with the organization’s risk strategy to protect individuals’ privacy, increase manageability, and enable the implementation of privacy principles (e.g., individual participation, data quality, data minimization). ",
+          "type": "Category",
+          "description": "",
+          "childElements": [
+            {
+              "element": "CT.DM-P1",
+              "title": "Data elements can be accessed for review.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "CT.DM-P2",
+              "title": "Data elements can be accessed for transmission or disclosure.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "CT.DM-P3",
+              "title": "Data elements can be accessed for alteration.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "CT.DM-P4",
+              "title": "Data elements can be accessed for deletion.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "CT.DM-P5",
+              "title": "Data are destroyed according to policy.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "CT.DM-P6",
+              "title": "Data are transmitted using standardized formats.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "CT.DM-P7",
+              "title": "Mechanisms for transmitting processing permissions and related data values with data elements are established and in place.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "CT.DM-P8",
+              "title": "Audit/log records are determined, documented, implemented, and reviewed in accordance with policy and incorporating the principle of data minimization.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "CT.DM-P9",
+              "title": "Technical measures implemented to manage data processing are tested and assessed.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "CT.DM-P10",
+              "title": "Stakeholder privacy preferences are included in algorithmic design objectives and outputs are evaluated against these preferences.",
+              "type": "Subcategory",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "element": "CT.DP-P",
+          "title": "Data processing solutions increase disassociability consistent with the organization’s risk strategy to protect individuals’ privacy and enable implementation of privacy principles (e.g., data minimization).",
+          "type": "Category",
+          "description": "",
+          "childElements": [
+            {
+              "element": "CT.DP-P1",
+              "title": "Data are processed to limit observability and linkability (e.g., data actions take place on local devices, privacy-preserving cryptography).",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "CT.DP-P2",
+              "title": "Data are processed to limit the identification of individuals (e.g., de-identification privacy techniques, tokenization).",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "CT.DP-P3",
+              "title": "Data are processed to limit the formulation of inferences about individuals’ behavior or activities (e.g., data processing is decentralized, distributed architectures).",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "CT.DP-P4",
+              "title": "System or device configurations permit selective collection or disclosure of data elements. ",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "CT.DP-P5",
+              "title": "Attribute references are substituted for attribute values.",
+              "type": "Subcategory",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "element": "CM-P",
+      "title": "Develop and implement appropriate activities to enable organizations and individuals to have a reliable understanding and engage in a dialogue about how data are processed and associated privacy risks.",
+      "type": "Function",
+      "description": "",
+      "childElements": [
+        {
+          "element": "CM.PO-P",
+          "title": "Policies, processes, and procedures are maintained and used to increase transparency of the organization’s data processing practices (e.g., purpose, scope, roles and responsibilities in the data processing ecosystem, and management commitment) and associated privacy risks.",
+          "type": "Category",
+          "description": "",
+          "childElements": [
+            {
+              "element": "CM.PO-P1",
+              "title": "Transparency policies, processes, and procedures for communicating data processing purposes, practices, and associated privacy risks are established and in place.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "CM.PO-P2",
+              "title": "Roles and responsibilities (e.g., public relations) for communicating data processing purposes, practices, and associated privacy risks are established.",
+              "type": "Subcategory",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "element": "CM.AW-P",
+          "title": "Individuals and organizations have reliable knowledge about data processing practices and associated privacy risks, and effective mechanisms are used and maintained to increase predictability consistent with the organization’s risk strategy to protect individuals’ privacy. ",
+          "type": "Category",
+          "description": "",
+          "childElements": [
+            {
+              "element": "CM.AW-P1",
+              "title": "Mechanisms (e.g., notices, internal or public reports) for communicating data processing purposes, practices, associated privacy risks, and options for enabling individuals’ data processing preferences and requests are established and in place.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "CM.AW-P2",
+              "title": "Mechanisms for obtaining feedback from individuals (e.g., surveys or focus groups) about data processing and associated privacy risks are established and in place.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "CM.AW-P3",
+              "title": "System/product/service design enables data processing visibility.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "CM.AW-P4",
+              "title": "Records of data disclosures and sharing are maintained and can be accessed for review or transmission/disclosure.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "CM.AW-P5",
+              "title": "Data corrections or deletions can be communicated to individuals or organizations (e.g., data sources) in the data processing ecosystem.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "CM.AW-P6",
+              "title": "Data provenance and lineage are maintained and can be accessed for review or transmission/disclosure.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "CM.AW-P7",
+              "title": "Impacted individuals and organizations are notified about a privacy breach or event.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "CM.AW-P8",
+              "title": "Individuals are provided with mitigation mechanisms (e.g., credit monitoring, consent withdrawal, data alteration or deletion) to address impacts of problematic data actions.",
+              "type": "Subcategory",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "element": "PR-P",
+      "title": "Develop and implement appropriate data processing safeguards.",
+      "type": "Function",
+      "description": "",
+      "childElements": [
+        {
+          "element": "PR.PO-P",
+          "title": "Security and privacy policies (e.g., purpose, scope, roles and responsibilities in the data processing ecosystem, and management commitment), processes, and procedures are maintained and used to manage the protection of data.",
+          "type": "Category",
+          "description": "",
+          "childElements": [
+            {
+              "element": "PR.PO-P1",
+              "title": "A baseline configuration of information technology is created and maintained incorporating security principles (e.g., concept of least functionality).",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "PR.PO-P2",
+              "title": "Configuration change control processes are established and in place.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "PR.PO-P3",
+              "title": "Backups of information are conducted, maintained, and tested.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "PR.PO-P4",
+              "title": "Policy and regulations regarding the physical operating environment for organizational assets are met.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "PR.PO-P5",
+              "title": "Protection processes are improved.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "PR.PO-P6",
+              "title": "Effectiveness of protection technologies is shared.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "PR.PO-P7",
+              "title": "Response plans (Incident Response and Business Continuity) and recovery plans (Incident Recovery and Disaster Recovery) are established, in place, and managed.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "PR.PO-P8",
+              "title": "Response and recovery plans are tested.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "PR.PO-P9",
+              "title": "Privacy procedures are included in human resources practices (e.g., deprovisioning, personnel screening).",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "PR.PO-P10",
+              "title": "A vulnerability management plan is developed and implemented.",
+              "type": "Subcategory",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "element": "PR.AC-P",
+          "title": "Access to data and devices is limited to authorized individuals, processes, and devices, and is managed consistent with the assessed risk of unauthorized access.",
+          "type": "Category",
+          "description": "",
+          "childElements": [
+            {
+              "element": "PR.AC-P1",
+              "title": "Identities and credentials are issued, managed, verified, revoked, and audited for authorized individuals, processes, and devices.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "PR.AC-P2",
+              "title": "Physical access to data and devices is managed.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "PR.AC-P3",
+              "title": "Remote access is managed.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "PR.AC-P4",
+              "title": "Access permissions and authorizations are managed, incorporating the principles of least privilege and separation of duties.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "PR.AC-P5",
+              "title": "Network integrity is protected (e.g., network segregation, network segmentation).",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "PR.AC-P6",
+              "title": "Individuals and devices are proofed and bound to credentials, and authenticated commensurate with the risk of the transaction (e.g., individuals’ security and privacy risks and other organizational risks).",
+              "type": "Subcategory",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "element": "PR.DS-P",
+          "title": "Data are managed consistent with the organization’s risk strategy to protect individuals’ privacy and maintain data confidentiality, integrity, and availability.",
+          "type": "Category",
+          "description": "",
+          "childElements": [
+            {
+              "element": "PR.DS-P1",
+              "title": "Data-at-rest are protected.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "PR.DS-P2",
+              "title": "Data-in-transit are protected.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "PR.DS-P3",
+              "title": "Systems/products/services and associated data are formally managed throughout removal, transfers, and disposition.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "PR.DS-P4",
+              "title": "Adequate capacity to ensure availability is maintained.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "PR.DS-P5",
+              "title": "Protections against data leaks are implemented.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "PR.DS-P6",
+              "title": "Integrity checking mechanisms are used to verify software, firmware, and information integrity.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "PR.DS-P7",
+              "title": "The development and testing environment(s) are separate from the production environment.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "PR.DS-P8",
+              "title": "Integrity checking mechanisms are used to verify hardware integrity.",
+              "type": "Subcategory",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "element": "PR.MA-P",
+          "title": "System maintenance and repairs are performed consistent with policies, processes, and procedures.",
+          "type": "Category",
+          "description": "",
+          "childElements": [
+            {
+              "element": "PR.MA-P1",
+              "title": "Maintenance and repair of organizational assets are performed and logged, with approved and controlled tools.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "PR.MA-P2",
+              "title": "Remote maintenance of organizational assets is approved, logged, and performed in a manner that prevents unauthorized access.",
+              "type": "Subcategory",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "element": "PR.PT-P",
+          "title": "Technical security solutions are managed to ensure the security and resilience of systems/products/services and associated data, consistent with related policies, processes, procedures, and agreements.",
+          "type": "Category",
+          "description": "",
+          "childElements": [
+            {
+              "element": "PR.PT-P1",
+              "title": "Removable media is protected and its use restricted according to policy.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "PR.PT-P2",
+              "title": "The principle of least functionality is incorporated by configuring systems to provide only essential capabilities.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "PR.PT-P3",
+              "title": "Communications and control networks are protected.",
+              "type": "Subcategory",
+              "description": ""
+            },
+            {
+              "element": "PR.PT-P4",
+              "title": "Mechanisms (e.g., failsafe, load balancing, hot swap) are implemented to achieve resilience requirements in normal and adverse situations.",
+              "type": "Subcategory",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
